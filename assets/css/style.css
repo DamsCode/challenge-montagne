@@ -22,4 +22,20 @@
         flex-grow: initial !important;
         max-width: inherit !important;
     }
+    .wrapper.style1>.inner {
+        padding: initial !important;
+        margin: initial !important;
+        max-width: initial !important;
+        width: initial !important;
+    }
+    .style1 .content {
+        text-align: center;
+    }
+    .items.style1.medium>* {
+        width: initial;
+    }
+    .items.style1.medium>* {
+        width: inherit !important;
+        padding: initial !important;
+    }
 }
