@@ -17,25 +17,25 @@
     .content {
         width: 100% !important;
         padding: 0 !important;
-        margin: 0 auto !important;
+        margin: 50px 50px 50px 50px !important;
         flex-shrink: initial !important;
         flex-grow: initial !important;
         max-width: inherit !important;
     }
     .wrapper.style1>.inner {
-        padding: initial !important;
-        margin: initial !important;
+        /* padding: initial !important; */
         max-width: initial !important;
         width: initial !important;
+        margin: inherit !important;
     }
     .style1 .content {
         text-align: center;
     }
     .items.style1.medium>* {
-        width: initial;
-    }
-    .items.style1.medium>* {
         width: inherit !important;
         padding: initial !important;
+    }
+    .inner p {
+        text-align: center;
     }
 }
